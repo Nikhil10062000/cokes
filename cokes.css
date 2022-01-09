@@ -1,0 +1,138 @@
+/* style for webpage  */
+/* stype for header tag */
+header{
+    width: 100%;
+    display: inline-table;
+}
+/* change background color to black  */
+body{
+    background-color:black;
+}
+/* adjusting the logo  */
+img{
+    height: 4cm;
+    margin-left: 3ch;
+    margin-top: 3ch;
+    float: left;
+    display: flex;
+}
+/* adjusting the menu  */
+.menu{
+    height: 4cm;
+    margin-left: 3ch;
+    margin-top: 10ch;
+    float: right;
+    display: flex;
+    
+}
+/* listing ilne block */
+li{
+    display: inline-block;
+}
+/* adjusting postion for unorder list */
+div ul{
+    position: relative;
+    display: flex;
+    margin-right: 3cm;
+}
+div ul li a{
+    display: inline-block;
+    display: flex;
+    font-size: 25px;
+    margin-left: 30px;
+    text-decoration: none;
+    color:chartreuse;
+    
+}
+.content{
+    width: 100%;
+    display: inline-table;
+
+}
+/* paragraph color and some adjustment */
+#para{
+    color: white;
+    margin-left: 2cm;
+    float: left;
+    width: 10cm;
+}
+/* float image to right side */
+.cococola{
+    float: right;
+    margin-right: 4cm;
+    height: 8cm;
+    
+
+}
+/* number hilighted in span tag  */
+span{
+    color: turquoise;
+}
+/* section tag adjustment */
+section{
+    width: 100%;
+    display: inline-block;
+}
+/* adjusting imgslider images to small size */
+.img1,.img2,.img3,.img4{
+    height: 1cm;
+    width: 1cm;
+    display: inline-block;
+}
+/* floating table to right */
+table{
+    float: right;
+    margin-right: 6.5cm;
+}
+/* color to highlighted slogan */
+.hyper{
+    color: bisque;
+}
+.hyper:hover{
+    color: turquoise;
+
+}
+/* adjusting footer */
+footer{
+    width: 100%;
+    display: inline-block;
+    margin-left: 20cm;
+    margin-top: 2cm;
+
+}
+/* color to social media logo twitter facebook and instagaram */
+.twitter{
+    color: aqua;
+}
+.facebook{
+    color: blue;
+}
+.instagram{
+    color:rgb(225,48,108);   
+}
+.fixed{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 10px;
+    right: 100px;
+}
+.fixed_img{
+    height: 1cm;
+    width: 2cm;
+}
+.social_media{
+    display: inline;
+}
+/* fixing the logo to top right side */
+.fixed{
+    position: fixed;
+    width: 90px;
+    height: 10px;
+    top: 10px;
+    right: 10px;
+}
+.fixed1{
+    height: 1cm;
+    border-radius: 50%;
+}
